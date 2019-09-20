@@ -1,0 +1,5 @@
+loading框样式,只有loading框,不含提示框,提示框直接使用SVProgressHUD,提示框和loading框都使用单例SVProgressHUD,容易出交互异常.
+
+使用UIBezierPath自定义动画做的两个小特效,
+1、第一个特效是CircleLoading,一个简单的2线条,长度和位置不断变动旋转的特效.
+2、第二个特效是ClockLoading,一个类时钟走时的特效,设置YungLoadingClockAnimateViewAnimateSpeed 2.5可以改变走时速度.
